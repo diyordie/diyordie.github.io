@@ -13,10 +13,14 @@
 }
 
 .latest {
+  margin: 40px;
+  backgound-image: url("assets/carbonfiber.png");
+  text-align: left;
   width: 75%;
   height: 75%;
   float: left;
   filter: drop-shadow(0.0.075rem black);
+
 .crop {
   width: 200px;
   height: 100px;
