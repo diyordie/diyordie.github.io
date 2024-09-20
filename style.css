@@ -9,6 +9,7 @@
   background-image: url("assets/carbonfiber.png");
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20%;
   filter: drop-shadow(0 0 0.75rem black);
 }
 
@@ -22,6 +23,14 @@
   height: 100px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.article {
+  border: 2px dotted;
+  width: 75%;
+  height: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .bottom_box {
