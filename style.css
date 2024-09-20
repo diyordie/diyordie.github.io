@@ -1,4 +1,4 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
@@ -31,6 +31,7 @@
  height: 100%;
  background-image: url("assets/carbonfiber.png");
  padding: 5%;
+ margin: 10%;
  margin-left: 10%;
  margin-right: 10%;
  filter: drop-shadow(0 0 0.75rem black);
