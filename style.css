@@ -34,6 +34,17 @@
   align-items: center;
   justify-content: center;
 }
+.card {
+  background-image: url("assets/carbondark.png");
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 50px;
+  filter: drop-shadow(0 0 0.75rem black);
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .information {
 }
