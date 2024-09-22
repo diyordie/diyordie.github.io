@@ -7,7 +7,6 @@
 }
 
 .heading {
-  text-align: center;
   width: 60%;
   height: 100%;
   background-image: url("assets/carbonfiber.png");
@@ -64,21 +63,22 @@
 }
 
 .information {
+  direction: ltr;
+  text-align: left;
 }
 
 .text {
-  text-align: right;
+  direction: ltr;
+  text-align: left;
 }
 
 .image {
   max-width: 100%;
   max-height:100%;
-  float: right;
 }
    
 .bottom_box {
-  text-align: center;
-  width: 100%;
+  width: 80%;
   height: 100%;
   background-image: url("assets/carbonfiber.png");
   margin-top: 5%;
@@ -92,7 +92,6 @@ body {
   background-image: url("assets/showoff.png");
   background-size: 1920px 1080px;
   font-family: Verdana;
-  text-align: center;
   padding: 20px;
   margin-left: 2%;
   margin-right: 2%;
@@ -129,7 +128,13 @@ body {
      width: 100%;
   }
 }
-  
+
+@media screen and (max-width: 800px) { 
+   .bottom_box {
+     width: 100%;
+  }
+}
+
 @media screen and (max-width: 800px) { 
    .card3 {
      display: none
