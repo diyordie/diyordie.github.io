@@ -19,7 +19,7 @@
 
 .fakeimg {
   background-color: #aaa;
-  width: 100%;
+  width: 50%;
   padding: 20px;
 }
 
@@ -29,7 +29,7 @@
   padding: 20px;
   margin: 50px;
   filter: drop-shadow(0 0 0.75rem black);
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -42,7 +42,7 @@
 .image {
   max-width: 100%;
   max-height:100%;
-   float: right;
+  float: right;
 }
    
 .bottom_box {
