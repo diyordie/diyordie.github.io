@@ -19,7 +19,8 @@
 
 .fakeimg {
   background-color: rgba(0,0,0,0);
-  width: 100%;
+  width: 25%;
+  height: 25%;
   padding: 20px;
 }
 
