@@ -13,15 +13,17 @@
   background-image: url("assets/carbonfiber.png");
   margin-left: auto;
   margin-right: auto;
+  position: relatuto;
   filter: drop-shadow(0 0 0.75rem black);
-  padding: 20px;
+  padding: 2%;
+  white-space: nowrap;
 }
 
 .fakeimg {
   background-color: rgba(0,0,0,0);
-  width: 25%;
-  height: 25%;
-  padding: 20px;
+  width: 100%;
+  height: 100%;
+  padding: 2%;
 }
 
 .card {
@@ -37,8 +39,17 @@
 .card2 {
   background-image: url("assets/carbondark.png");
   background-color: #ffffff;
-  padding: 20px;
-  margin: 50px;
+  margin: auto;
+  filter: drop-shadow(0 0 0.75rem black);
+  height: 10%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card3 {
+  background-color: rgba(0, 0, 0, 0);
+  margin: auto;
   filter: drop-shadow(0 0 0.75rem black);
   height: 10%;
   width: 25%;
